@@ -20,4 +20,4 @@ const provider = new GoogleAuthProvider();
 /* データベースの初期化 */
 const db = getFirestore(app);
 
-export { auth, provider, db };
+export { auth, provider, db }
